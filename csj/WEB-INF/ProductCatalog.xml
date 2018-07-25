@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <phone>
+    	<id>ph1</id>
+      	<name>Moto G</name>
+      	<price>200</price>
+    	<image>images\Phones\phone9.jpg</image>
+  	<condition>Refurbished</condition>
+    	<retailer>Best Deal</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph2</id>
+      	<name>SONY Xperia</name>
+      	<price>450</price>
+    	<image>images\Phones\phone8.png</image>
+  		<condition>New</condition>
+    	<retailer>SlipKart</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>55</quantity>
+    	<onSale>No</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph3</id>
+      	<name>Moto G5</name>
+      	<price>350</price>
+    	<image>images\Phones\phone10.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>22</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph4</id>
+      	<name>Samsung Galaxy S6</name>
+      	<price>500</price>
+    	<image>images\Phones\phone1.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>35</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph5</id>
+      	<name>Samsung Galaxy S2</name>
+      	<price>250</price>
+    	<image>images\Phones\phone2.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>80</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph6</id>
+      	<name>Samsung Galaxy S4</name>
+      	<price>349</price>
+    	<image>images\Phones\phone3.jpg</image>
+  		<condition>Refurbished</condition>
+    	<retailer>Shopping Kart</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>69</quantity>
+    	<onSale>No</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph7</id>
+      	<name>iPhone 7Plus 128GB Model</name>
+      	<price>899</price>
+    	<image>images\Phones\phone5.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>54</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph8</id>
+      	<name>iPhone 7 32GB Model</name>
+      	<price>750</price>
+    	<image>images\Phones\phone4.png</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph9</id>
+      	<name>HTC 816</name>
+      	<price>449</price>
+    	<image>images\Phones\phone7.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>52</quantity>
+    	<onSale>No</onSale>
+  	</phone>
+  	
+  	<phone>
+    	<id>ph10</id>
+      	<name>HTC 526G</name>
+      	<price>229</price>
+    	<image>images\Phones\phone6.png</image>
+  		<condition>New</condition>
+    	<retailer>SlipKart</retailer>
+    	<prodType>Phone</prodType>
+    	<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>60</quantity>
+    	<onSale>Yes</onSale>
+  	</phone>
+
+	
+  
+        
+        <smartWatch>
+    		<id>sw1</id>
+      		<name>Apple SmartWatch</name>
+      		<price>150</price>
+    		<image>images\Watch\smartWatch1.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Gadget Station</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>65</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw2</id>
+      		<name>Sony ABG76</name>
+      		<price>105</price>
+    		<image>images\Watch\smartWatch2.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Best Deal</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>68</quantity>
+    	<onSale>No</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw3</id>
+      		<name>Vivo XY78</name>
+      		<price>80</price>
+    		<image>images\Watch\smartWatch3.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Shopping Mart</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw4</id>
+      		<name>Samsung Smart</name>
+      		<price>145</price>
+    		<image>images\Watch\smartWatch4.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Best Buy</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>21</quantity>
+    	<onSale>No</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw5</id>
+      		<name>MicroMini HYG654</name>
+      		<price>99</price>
+    		<image>images\Watch\smartWatch5.jpeg</image>
+  			<condition>Refurbished</condition>
+    		<retailer>Best Deal</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw6</id>
+      		<name>MI 4</name>
+      		<price>119</price>
+    		<image>images\Watch\smartWatch6.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Best Deal</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>57</quantity>
+    	<onSale>No</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw7</id>
+      		<name>Apple Mini</name>
+      		<price>199</price>
+    		<image>images\Watch\smartWatch7.jpg</image>
+  			<condition>New</condition>
+    		<retailer>Bestest Deal</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>97</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw8</id>
+      		<name>Orange Plus</name>
+      		<price>300</price>
+    		<image>images\Watch\smartWatch8.jpg</image>
+  			<condition>New</condition>
+    		<retailer>SlipKart</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw9</id>
+      		<name>Xiaomi 7</name>
+      		<price>89</price>
+    		<image>images\Watch\smartWatch9.jpg</image>
+  			<condition>Refurbished</condition>
+    		<retailer>Best Deal</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>32</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+  		<smartWatch>
+    		<id>sw10</id>
+      		<name>Lavaa 9</name>
+      		<price>111</price>
+    		<image>images\Watch\smartWatch10.jpg</image>
+  			<condition>Refurbished</condition>
+    		<retailer>SlipKart</retailer>
+    		<prodType>Watch</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  		</smartWatch>
+  		
+    
+       
+        <laptop>
+     		<id>lp1</id>
+     		<name>Apple Macbook</name>
+        	<image>images\Laptop\Apple_Macbook.jpg</image>
+        	<price>1100</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>54</quantity>
+    	<onSale>No</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp2</id>
+     		<name>Dell 5000 Series</name>
+        	<image>images\Laptop\Laptop_dell.png</image>
+        	<price>599</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp3</id>
+     		<name>Apple Macbook Pro</name>
+        	<image>images\Laptop\Apple_pro.jpg</image>
+        	<price>1300</price>
+        	<condition >New</condition>
+        	<retailer>SlipKart</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>63</quantity>
+    	<onSale>No</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp4</id>
+     		<name>Acer ABC </name>
+        	<image>images\Laptop\lappy_acer.jpeg</image>
+        	<price>299</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp5</id>
+     		<name>HP XYZ series</name>
+        	<image>images\Laptop\lappy_hp5.jpg</image>
+        	<price>499</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>67</quantity>
+    	<onSale>Yes</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp6</id>
+     		<name>Dell 3000 series</name>
+        	<image>images\Laptop\lappy_dell.jpeg</image>
+        	<price>429</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp7</id>
+     		<name>HP 1000 Series</name>
+        	<image>images\Laptop\Laptop_hp.jpg</image>
+        	<price>699</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>58</quantity>
+    	<onSale>Yes</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp8</id>
+     		<name>HP 4000 Series</name>
+        	<image>images\Laptop\Laptop_hp1.jpg</image>
+        	<price>549</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp9</id>
+     		<name>Lenevo XP</name>
+        	<image>images\Laptop\lenevo_lappy.jpg</image>
+        	<price>499</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </laptop>
+        
+        
+        <laptop>
+     		<id>lp10</id>
+     		<name>ASUS 5000</name>
+        	<image>images\Laptop\lappy_asus.jpg</image>
+        	<price>449</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Laptop</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>69</quantity>
+    	<onSale>No</onSale>
+        </laptop>
+    
+        
+        <speaker>
+     		<id>sp1</id>
+     		<name>Bose X1</name>
+        	<image>images\Speaker\bose.jpg</image>
+        	<price>199</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp2</id>
+     		<name>Bowers and Wilkins</name>
+        	<image>images\Speaker\bowers_wilkins.jpg</image>
+        	<price>299</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp3</id>
+     		<name>Sony</name>
+        	<image>images\Speaker\speaker3.png</image>
+        	<price>99</price>
+        	<condition >Refurbished</condition>
+        	<retailer>SlipKart</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>86</quantity>
+    	<onSale>No</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp4</id>
+     		<name>JBL Flip 3</name>
+        	<image>images\Speaker\flip_3.jpg</image>
+        	<price>150</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp5</id>
+     		<name>Philips</name>
+        	<image>images\Speaker\philips.jpeg</image>
+        	<price>79</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>65</quantity>
+    	<onSale>No</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp6</id>
+     		<name>Logitech </name>
+        	<image>images\Speaker\speaker1.jpg</image>
+        	<price>119</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp7</id>
+     		<name>Panasonic</name>
+        	<image>images\Speaker\speaker2.jpg</image>
+        	<price>89</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp8</id>
+     		<name>SONY X3</name>
+        	<image>images\Speaker\speaker4.png</image>
+        	<price>99</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>35</quantity>
+    	<onSale>No</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp9</id>
+     		<name>Philips 201</name>
+        	<image>images\Speaker\speaker5.jpg</image>
+        	<price>201</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </speaker>
+        
+        <speaker>
+     		<id>sp10</id>
+     		<name>Acer audio</name>
+        	<image>images\Speaker\speaker6.png</image>
+        	<price>129</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Speaker</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </speaker>
+       
+    
+        
+       
+   
+        
+        
+        <headPhone>
+     		<id>hp1</id>
+     		<name>Beats Audio D1</name>
+        	<image>images\Headphones\beats_1.png</image>
+        	<price>299</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>45</quantity>
+    	<onSale>Yes</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp2</id>
+     		<name>Beats Audio HPX1</name>
+        	<image>images\Headphones\beats_2.jpg</image>
+        	<price>249</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp3</id>
+     		<name>BOSE 360</name>
+        	<image>images\Headphones\bose.jpg</image>
+        	<price>349</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>64</quantity>
+    	<onSale>No</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp4</id>
+     		<name>SONY C1</name>
+        	<image>images\Headphones\hp_1.jpg</image>
+        	<price>149</price>
+        	<condition >Refurbished</condition>
+        	<retailer>SlipKart</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp5</id>
+     		<name>NURA 900</name>
+        	<image>images\Headphones\nura.jpg</image>
+        	<price>229</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>85</quantity>
+    	<onSale>Yes</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp6</id>
+     		<name>SkullCandy 2000</name>
+        	<image>images\Headphones\skull2.jpg</image>
+        	<price>99</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp7</id>
+     		<name>SkullCandy 5000</name>
+        	<image>images\Headphones\skullcandy.jpg</image>
+        	<price>299</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>91</quantity>
+    	<onSale>Yes</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp8</id>
+     		<name>SONY S1</name>
+        	<image>images\Headphones\Sony_1.jpg</image>
+        	<price>299</price>
+        	<condition >New</condition>
+        	<retailer>Shopping Blues</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp9</id>
+     		<name>SONY S2</name>
+        	<image>images\Headphones\sony.jpg</image>
+        	<price>59</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Tuy</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>65</quantity>
+    	<onSale>Yes</onSale>
+        </headPhone>
+        
+        <headPhone>
+     		<id>hp10</id>
+     		<name>SONY S4</name>
+        	<image>images\Headphones\sony2.jpg</image>
+        	<price>79</price>
+        	<condition >New</condition>
+        	<retailer>Dmart</retailer>
+        		<prodType>Headphone</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </headPhone>
+       
+    
+        
+        <externalStorage>
+     		<id>es1</id>
+     		<name>XYZ Hardrive</name>
+        	<image>images\Accessory\Harddrive.jpg</image>
+        	<price>69</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Buy</retailer>
+        		<prodType>External Storage</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es2</id>
+     		<name>Hitachi Hard drive</name>
+        	<image>images\Accessory\hitachi_hd.jpg</image>
+        	<price>79</price>
+        	<condition >New</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>68</quantity>
+    	<onSale>No</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es3</id>
+     		<name>HP Hard Drive</name>
+        	<image>images\Accessory\hp_hd.jpg</image>
+        	<price>89</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es4</id>
+     		<name>HP Pendrive</name>
+        	<image>images\Accessory\hp_pendrive.jpg</image>
+        	<price>29</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>64</quantity>
+    	<onSale>No</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es5</id>
+     		<name>Kingston PD</name>
+        	<image>images\Accessory\kingston_pd.png</image>
+        	<price>19</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es6</id>
+     		<name>Lenevo Hard Drive</name>
+        	<image>images\Accessory\lenevo_hd.jpeg</image>
+        	<price>59</price>
+        	<condition >New</condition>
+        	<retailer>SlipKart</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>No</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es7</id>
+     		<name>Samsung Hard Drive</name>
+        	<image>images\Accessory\samsung_hd.jpg</image>
+        	<price>79</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Best Deal</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es8</id>
+     		<name>Samsung Micro Card</name>
+        	<image>images\Accessory\samsung_micro_card.jpg</image>
+        	<price>14</price>
+        	<condition >New</condition>
+        	<retailer>Best Buy</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>35</quantity>
+    	<onSale>No</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es9</id>
+     		<name>Sandisk PD</name>
+        	<image>images\Accessory\sandisk.jpg</image>
+        	<price>31</price>
+        	<condition >New</condition>
+        	<retailer>Amazon</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+        
+        <externalStorage>
+     		<id>es10</id>
+     		<name>SONY Micro Card</name>
+        	<image>images\Accessory\Sony_micro_card.jpg</image>
+        	<price>29</price>
+        	<condition >Refurbished</condition>
+        	<retailer>Shopping Blues</retailer>
+        	<prodType>External Storage</prodType>
+    		<manufacturerRebate>No</manufacturerRebate>
+    	<quantity>64</quantity>
+    	<onSale>Yes</onSale>
+        </externalStorage>
+       
+       <accessory>
+    	<id>ac1</id>
+      	<name>Philips</name>
+      	<price>20</price>
+    	<image>images\mouse.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+    	<prodType>Accessory</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  	</accessory>
+  	
+ 	<accessory>
+    	<id>ac2</id>
+      	<name>SONY Charger</name>
+      	<price>45</price>
+    	<image>images\charger.jpg</image>
+  		<condition>New</condition>
+    	<retailer>SlipKart</retailer>
+    	<prodType>Accessory</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac3</id>
+      	<name>Iphone 7 Case</name>
+      	<price>22</price>
+    	<image>images\phone_case.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+    	<prodType>Accessory</prodType>
+    		<manufacturerRebate>Yes</manufacturerRebate>
+    	<quantity>25</quantity>
+    	<onSale>Yes</onSale>
+  	</accessory>
+  	
+  	  <!-- <accessory>
+    	<id>ac4</id>
+      	<name>Samsung Galaxy S6</name>
+      	<price>500 $</price>
+    	<image>images\Phones\phone1.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac5</id>
+      	<name>Samsung Galaxy S2</name>
+      	<price>250 $</price>
+    	<image>images\Phones\phone2.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac6</id>
+      	<name>Samsung Galaxy S4</name>
+      	<price>349 $</price>
+    	<image>images\Phones\phone3.jpg</image>
+  		<condition>Refurbished</condition>
+    	<retailer>Shopping Kart</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac7</id>
+      	<name>iPhone 7Plus 128GB Model</name>
+      	<price>899 $</price>
+    	<image>images\Phones\phone5.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac8</id>
+      	<name>iPhone 7 32GB Model</name>
+      	<price>750 $</price>
+    	<image>images\Phones\phone4.png</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac9</id>
+      	<name>HTC 816</name>
+      	<price>449 $</price>
+    	<image>images\Phones\phone7.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Deal</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>ac10</id>
+      	<name>HTC 526G</name>
+      	<price>229 $</price>
+    	<image>images\Phones\phone6.png</image>
+  		<condition>New</condition>
+    	<retailer>SlipKart</retailer>
+  	</accessory>-->
+    
+</ProductCatalog>

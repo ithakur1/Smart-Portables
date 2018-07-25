@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+  <accessory>
+    	<id>1</id>
+      	<name>Philips</name>
+      	<price>20</price>
+    	<image>images\mouse.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+  	</accessory>
+  	
+ 	<accessory>
+    	<id>2</id>
+      	<name>SONY Charger</name>
+      	<price>45</price>
+    	<image>images\charger.jpg</image>
+  		<condition>New</condition>
+    	<retailer>SlipKart</retailer>
+  	</accessory>
+  	
+  	<accessory>
+    	<id>3</id>
+      	<name>Iphone 7 Case</name>
+      	<price>22</price>
+    	<image>images\phone_case.jpg</image>
+  		<condition>New</condition>
+    	<retailer>Best Buy</retailer>
+  	</accessory>
+
+</ProductCatalog>

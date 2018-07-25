@@ -1,0 +1,188 @@
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GadgetStation</title>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='styles.css' type='text/css' />
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+	
+    //ajax
+    var request; 
+    var val;
+    function sendInfo()  
+    {  debugger;
+	    var url="ViewProductSoldBarChart";  
+	      
+	    if(window.XMLHttpRequest){  
+	    	request=new XMLHttpRequest();  
+	    }  
+	    else if(window.ActiveXObject){  
+	    	request=new ActiveXObject("Microsoft.XMLHTTP");  
+	    }  
+	      
+	    try  
+	    {  
+		    request.onreadystatechange=getInfo;  
+		    request.open("GET",url,true);  
+		    request.send();  
+	    }  
+	    catch(e)  
+	    {  
+	    	alert("Unable to connect to server");  
+	    }  
+    }  
+      
+    function getInfo(){  
+    	debugger;
+	    if(request.readyState==4){  
+	    	if(request.status == 200){
+	    		val=request.responseText;
+	    		alert(val);
+	    	}
+	    }  
+    } 
+    
+    //ajax
+    
+    
+      // Load the Visualization API and the piechart package.
+      google.charts.load("current", {"packages":["corechart"]});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table, 
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn("string", "Product Name");
+      data.addColumn("number", "Total Sales in $");
+      
+      data.addRows(JSON.parse(val));
+      
+      // Set chart options
+      var options = {"title":"All Products Total Sales Bar Chart",
+                     "width":600,
+                     "height":600};
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.BarChart(document.getElementById("chart_div"));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+
+  <body>
+  <div id="container">
+		<header>
+		<h1><a href='/'>Gadget<span>Station</span></a></h1>
+        <h2>Save money, save time.</h2>
+    </header>
+		
+		<div class='navbar-header'>
+      <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>
+        <span class='sr-only'>Toggle navigation</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
+      <a class='navbar-brand' href='StoreManagerServlet'><span class='glyphicon glyphicon-picture' aria-hidden='true'></span>HOME</a>
+    </div>
+    <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+     
+      
+      <ul class='nav navbar-nav navbar-right'>
+       
+        <li><a href='index.html'>Logout</a></li>
+
+        
+      </ul>
+    </div> 
+
+		<div id="body">
+
+			<section id="content">
+			<article>
+			
+			<form name="vinform">  
+<input type="text" name="t1">  
+<input type="button" value="ShowTable" onClick="sendInfo()">  
+</form>  
+<!-- Div that will hold the pie chart -->
+    <div id="chart_div" style="width:400; height:300"></div>
+			</article>
+			</section>
+
+			<aside class="sidebar">
+				<ul>
+					<li>
+					<h4>Console</h4>
+					<ul>
+						<li><a href='StoreManagerServlet'>Home Page</a></li>
+						<li><a href='addProduct.html'>Add Product</a></li>
+						<li><a href='#'>Update Product</a></li>
+						<li><a href='#'>Delete Product</a></li>	
+					</ul>
+				</li>
+				<h4>Inventory Reports</h4>
+				<ul>
+					<li><a href='ViewAllProductsServlet'>All Products</a></li>
+					<li><a href='BarChartAllProducts.html'>All Products in Bar Chart</a></li>
+					<li><a href='ViewProductOnSale'>Products on Sale</a></li>
+					<li><a href='ViewManuRebatesServlet'>Products having Manufacturing Rebates</a></li>
+				</ul>
+				<h4>Sales Reports</h4>
+				<ul>
+					<li><a href='ProductSoldServlet'>All Products Sold</a></li>
+					<li><a href='BarChartProductSold.html'>Products sold on Bar Chart</a></li>
+					<li><a href='ViewOrdersByDate'>Products sold on Date</a></li>
+				</ul>
+
+					<li>
+						<h4>About us</h4>
+						<ul>
+							<li class="text">
+								<p style="margin: 0;">
+									Gadget Station is one of the recognized leader in the market of e-commerce website where in people get the cheapest price and best customer service.</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+			</aside>
+			<div class="clear"></div>
+		</div>
+		<footer>
+        <div class='footer-content'>
+            <ul>
+              <li><h2>Contact Us</h2></li>
+               
+            </ul>
+            <br>
+            <ul>
+            <li><h4>Gadget Station</h4></li>
+            <li>Chicago, IL 60616</li>
+              <li>Indranil Thakur</li>
+                <li>Email :ithakur1@hawk.iit.edu</li>
+                <li>Phone no: +1 312 383 9148</li>
+              
+            </ul>
+            
+           
+            
+            <div class='clear'></div>
+        </div>
+        <div class='footer-bottom'>
+            <p>&copy; @Copyright GadgetStation Designed by Indranil Thakur</p>
+         </div>
+    </footer>
+	</div>
+     <!-- <marquee><h1>This is an example of ajax</h1></marquee>   --> 
+
+  </body>
+</html>

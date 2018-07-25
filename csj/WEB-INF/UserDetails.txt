@@ -1,0 +1,4 @@
+Indranil,Thakur,25,Male,UnitedStates,2801SKingDrive,ithakur1,ithakur1
+Indraneel,Thakur,25,Male,UnitedStates,2801SKingDrive,ithakur,ithakur
+Store,Manager,26,Male,United States,King Drive,storemanager,storemanager
+Sales,Man,35,Male,United States,King Drive,salesman,salesman
